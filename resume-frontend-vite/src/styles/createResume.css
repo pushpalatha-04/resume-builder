@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: #f4f6f9;
+}
+
+.resume-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 60px 20px;
+}
+
+.resume-card {
+  background: white;
+  width: 900px;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+}
+
+.resume-card h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #222;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.form-grid input,
+.form-grid textarea {
+  padding: 12px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  font-size: 14px;
+  outline: none;
+  transition: 0.3s;
+}
+
+.form-grid input:focus,
+.form-grid textarea:focus {
+  border-color: #2d89ff;
+  box-shadow: 0 0 5px rgba(45, 137, 255, 0.2);
+}
+
+.form-grid textarea {
+  grid-column: span 2;
+  min-height: 80px;
+  resize: vertical;
+}
+
+.generate-btn {
+  margin-top: 30px;
+  width: 100%;
+  padding: 14px;
+  border: none;
+  border-radius: 8px;
+  background: linear-gradient(135deg, #2d89ff, #0056d2);
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.generate-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+}

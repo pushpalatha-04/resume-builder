@@ -1,0 +1,72 @@
+{
+  "templateName": "Fresher Standard Resume",
+  "sections": [
+    {
+      "key": "header",
+      "title": "Basic Information",
+      "fields": [
+        { "name": "fullName", "label": "Full Name", "type": "text" },
+        { "name": "phone", "label": "Phone Number", "type": "text" },
+        { "name": "email", "label": "Email ID", "type": "email" },
+        { "name": "dob", "label": "Date of Birth", "type": "date" },
+        { "name": "city", "label": "City / State", "type": "text" },
+        { "name": "linkedin", "label": "LinkedIn URL", "type": "text" },
+        { "name": "github", "label": "GitHub Profile", "type": "text" }
+      ]
+    },
+    {
+      "key": "objective",
+      "title": "Career Objective",
+      "fields": [
+        { "name": "careerObjective", "label": "Career Objective", "type": "textarea" }
+      ]
+    },
+    {
+      "key": "education",
+      "title": "Education",
+      "fields": [
+        { "name": "degree", "label": "Degree & Branch", "type": "text" },
+        { "name": "college", "label": "College Name", "type": "text" },
+        { "name": "cgpa", "label": "CGPA / Percentage", "type": "text" }
+      ]
+    },
+    {
+      "key": "skills",
+      "title": "Technical Skills",
+      "fields": [
+        { "name": "programming", "label": "Programming Languages", "type": "text" },
+        { "name": "web", "label": "Web Technologies", "type": "text" },
+        { "name": "database", "label": "Databases", "type": "text" },
+        { "name": "tools", "label": "Tools & Platforms", "type": "text" }
+      ]
+    },
+    {
+      "key": "projects",
+      "title": "Projects",
+      "fields": [
+        { "name": "projects", "label": "Projects Details", "type": "textarea" }
+      ]
+    },
+    {
+      "key": "internship",
+      "title": "Internships",
+      "fields": [
+        { "name": "internships", "label": "Internship Details", "type": "textarea" }
+      ]
+    },
+    {
+      "key": "certifications",
+      "title": "Certifications",
+      "fields": [
+        { "name": "certifications", "label": "Certifications", "type": "textarea" }
+      ]
+    },
+    {
+      "key": "softskills",
+      "title": "Soft Skills",
+      "fields": [
+        { "name": "softSkills", "label": "Soft Skills", "type": "text" }
+      ]
+    }
+  ]
+}
