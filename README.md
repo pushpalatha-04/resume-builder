@@ -1,56 +1,81 @@
-Resume Builder Web Application
+ Resume Builder Application
 
-Project Overview
-    The Resume Builder Web Application is a full-stack web platform that allows users to create professional resumes dynamically. 
-    Users can enter their personal, educational, and professional details, which are stored in a MySQL database and displayed through a structured resume template.
-    This project demonstrates full-stack development using Spring Boot (backend) and React (frontend).
+A full-stack Resume Builder web application that allows users to create, manage, and download professional resumes.
+
+ Live Demo
+ Full stack:https://resume-builder-2-2vjs.onrender.com
+ Backend: https://resume.onrender.com
+ Frontend: https://resume-frontend-vite.com
 
 Tech Stack
 
-Backend
-- Java
-- Spring Boot
-- REST API
-- MySQL
-- Maven
-
 Frontend
-- React JS
-- HTML
-- CSS
+  React (Vite)
+  HTML5
+  CSS3
+  JavaScript
+
+Backend
+  Java
+  Spring Boot
+  Spring Data JPA
+  REST APIs
+
+ Database
+  PostgreSQL (Render Cloud)
+
+ Deployment
+   Render
+
+ Project Structure
+
+resume-project
+│
+├── resume → Spring Boot Backend
+├── resume-frontend-vite → React Frontend
+
+
 
 Features
-- User input form for resume details
-- Dynamic resume generation
-- Database storage using MySQL
-- REST API integration between frontend and backend
-- Clean and responsive UI
+ Create Resume
+ Edit Resume Details
+ Save Resume Data in Database
+ Fetch Resume Data using REST API
+ Clean UI using React
+ Full-stack Integration
 
-Database
-- MySQL used for storing user information
+ Run Locally
 
-How to Run the Project
+ Backend
 
-Clone the Repository
+1. Navigate to backend folder:
+   cd resume
+2. Run:
+   mvnw spring-boot:run
+3. Runs on:
+   http://localhost:8080
+ 
+ Frontend
 
-git clone https://github.com/pushpalatha-04/resumebuildergit.git
-
-
- Backend Setup
-- Open backend folder in Vscode
-- Configure MySQL credentials in `application.properties`
-- Run as Spring Boot Application
-
- Frontend Setup
-Navigate to frontend folder and run:
-
-npm install
-npm start
-
-Screenshots
-(Add screenshots here later)
-
+1. Navigate to frontend folder:
+   cd resume-frontend-vite
+2. Install dependencies:
+   npm install
+3. Start:
+   npm run dev
+4. Runs on:
+   http://localhost:5173
 
 
- Author
-Pushpalatha J  
+
+Developed By
+
+Pushpalatha J
+
+ Future Improvements
+
+ Multiple Resume Templates
+ Admin Dashboard
+ Cloud File Storage
+
+
