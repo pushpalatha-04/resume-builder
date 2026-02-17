@@ -12,7 +12,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/resume")
-@CrossOrigin(origins = "http://localhost:5713")
+@CrossOrigin(origins ={ "http://localhost:5713","https://resume-frontend-vite.onrender.com"})
 public class ResumeController {
 
     private final ResumeService service;
